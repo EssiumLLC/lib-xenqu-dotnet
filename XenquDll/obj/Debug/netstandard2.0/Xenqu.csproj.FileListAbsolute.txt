@@ -1,0 +1,9 @@
+/code/XenquDll/bin/Debug/netstandard2.0/Xenqu.deps.json
+/code/XenquDll/bin/Debug/netstandard2.0/Xenqu.dll
+/code/XenquDll/bin/Debug/netstandard2.0/Xenqu.pdb
+/code/XenquDll/obj/Debug/netstandard2.0/Xenqu.csprojAssemblyReference.cache
+/code/XenquDll/obj/Debug/netstandard2.0/Xenqu.csproj.CoreCompileInputs.cache
+/code/XenquDll/obj/Debug/netstandard2.0/Xenqu.AssemblyInfoInputs.cache
+/code/XenquDll/obj/Debug/netstandard2.0/Xenqu.AssemblyInfo.cs
+/code/XenquDll/obj/Debug/netstandard2.0/Xenqu.dll
+/code/XenquDll/obj/Debug/netstandard2.0/Xenqu.pdb

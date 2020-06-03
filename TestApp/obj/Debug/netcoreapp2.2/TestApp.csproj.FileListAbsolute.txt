@@ -1,0 +1,14 @@
+/code/TestApp/bin/Debug/netcoreapp2.2/TestApp.deps.json
+/code/TestApp/bin/Debug/netcoreapp2.2/TestApp.runtimeconfig.json
+/code/TestApp/bin/Debug/netcoreapp2.2/TestApp.runtimeconfig.dev.json
+/code/TestApp/bin/Debug/netcoreapp2.2/TestApp.dll
+/code/TestApp/bin/Debug/netcoreapp2.2/TestApp.pdb
+/code/TestApp/bin/Debug/netcoreapp2.2/Xenqu.dll
+/code/TestApp/bin/Debug/netcoreapp2.2/Xenqu.pdb
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.csprojAssemblyReference.cache
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.csproj.CoreCompileInputs.cache
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.AssemblyInfoInputs.cache
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.AssemblyInfo.cs
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.csproj.CopyComplete
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.dll
+/code/TestApp/obj/Debug/netcoreapp2.2/TestApp.pdb
