@@ -32,14 +32,11 @@ namespace Xenqu
             serviceName = "/reporting/results/" + results.data[0]._id;
             results = JObject.Parse( provider.GetData( serviceName ) );
 
-            //return JsonConvert.SerializeObject( results.result_data.records );
             return ((JArray) results.result_data.records ).ToString();
         }     
 
         private static List<Dictionary<string, string>> jsonStringToTable( string jsonContent )
         {            
-            //DataTable dt = JsonConvert.DeserializeObject<DataTable>( jsonContent );
-            //return JsonConvert.DeserializeObject<List<Dictionary<string, string>>( jsonContent );
             return JArray.Parse(jsonContent).ToObject<List<Dictionary<string, string>>>();
         }
         
@@ -72,24 +69,7 @@ namespace Xenqu
                     csv.NextRecord();
                 }                    
             }
-/*              
-                    foreach (DataColumn column in dt.Columns)
-                    {
-                        csv.WriteField(column.ColumnName);
-                    }
-                    csv.NextRecord();
 
-                    foreach (DataRow row in dt.Rows)
-                    {
-                        for (var i = 0; i < dt.Columns.Count; i++)
-                        {
-                            csv.WriteField(row[i]);
-                        }
-                        csv.NextRecord();
-                    }
-                }
-            }
-*/            
             return csvString.ToString();
         }        
     }

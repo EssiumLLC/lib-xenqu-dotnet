@@ -17,18 +17,23 @@ namespace Test
             {
 
                 Xenqu.Configuration config = new Xenqu.Configuration();
-                
+
                 config.Initialize( 
-                    "<WILL_BE_PROVIDED>",  // Consumer Key
-                    "<WILL_BE_PROVIDED>",  // Consumer Secret
-                    "<WILL_BE_PROVIDED>",  // Token Key
-                    "<WILL_BE_PROVIDED>"   // Token Secret
+                    "<WILL_BE_PROVIDED>",     // Client Id
+                    "<WILL_BE_PROVIDED>",     // Client Secret
+                    "<WILL_BE_PROVIDED>",     // Subscriber
+                    "<PATH_TO_PRIVATE_KEY>"   // Key File
                 );
+
+                Xenqu.OAuth2.Authorize();
                 
-                Reports dsr = new Reports();
-                string str = dsr.ResultsCSV( "<SEE_DOCUMENTATION>" );
+                var user = new User();
+                var info = user.info();
                 
-                Console.WriteLine(str);
+                Console.WriteLine(info["contact"]["display_name"]);
+                Console.WriteLine(info["login"]["user_name"]);
+                Console.WriteLine(info["account"]["account_name"]);
+                
                 Console.ReadLine();
             }
             catch(Exception ex)
